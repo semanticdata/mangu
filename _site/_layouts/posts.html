@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1 class="page-title">{{ title }}</h1>
+<!-- <p>{{ description }}</p> -->
+
+<article class="catalogue">
+  {%- for post in collections.post reversed -%}
+  <a class="catalogue-item" href="{{ post.url }}">
+    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %e, %Y" }}</time>
+    <h2 class="catalogue-title">{{ post.data.title }}</h2>
+    <div class="catalogue-line"></div>
+    <p>{{ post.data.description | truncate: 280 }}</p>
+  </a>
+  {%- endfor -%}
+</article>
