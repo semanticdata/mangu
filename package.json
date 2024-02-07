@@ -1,32 +1,33 @@
 {
-  "name": "eleventy-tailwind-template",
-  "version": "1.0.0",
-  "description": "Template for using Eleventy and Tailwind CSS",
+  "name": "forgotten-notes",
+  "description": "A starter site for building a digital garden in eleventy.",
   "scripts": {
     "start": "npm-run-all -p dev:*",
-    "build": "npx @11ty/eleventy && tailwindcss -i _site/css/styles.sass -o dist/css/styles.css",
+    "build": "npx @11ty/eleventy && tailwindcss -i src/css/styles.sass -o _site/css/styles.css",
     "dev:11ty": "eleventy --serve --quiet",
-    "dev:css": "tailwindcss -i _site/css/styles.sass -o dist/css/styles.css --watch --postcss"
+    "dev:css": "tailwindcss -i src/css/styles.sass -o _site/css/styles.css --watch --postcss"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeremydaly/eleventy-tailwind-template.git"
+    "url": "git+https://github.com/semanticdata/11ty-starter.git"
   },
   "author": "Jeremy Daly",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jeremydaly/eleventy-tailwind-template/issues"
-  },
-  "homepage": "https://github.com/jeremydaly/eleventy-tailwind-template#readme",
+  "homepage": "https://github.com/semanticdata/11ty-starter",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "autoprefixer": "^10.4.17",
     "dayjs": "^1.11.10",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.34",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "title-case": "^3.0.3"
   },
   "dependencies": {
-    "title-case": "^4.3.1"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-table-of-contents": "^0.6.0"
   }
 }

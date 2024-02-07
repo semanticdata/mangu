@@ -2,7 +2,7 @@
 title: About
 permalink: "/about.html"
 tags: navigable
-layout: page
+layout: page.html
 ---
 
 ### Hi! I'm Miguel
