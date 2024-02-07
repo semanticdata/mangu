@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/website/https/miguelpimentel.do/11ty-starter.svg" />
 </p>
 
-Starter template for building websites with [11ty](https://www.11ty.dev/) and [TailwindCSS](https://tailwindcss.com/).
+<p align="center">Starter template for building websites with <a href="https://www.11ty.dev/">11ty</a> and <a href="https://tailwindcss.com/">TailwindCSS</a>.</p>
 
 ## Deployments
 
