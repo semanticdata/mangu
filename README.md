@@ -1,4 +1,4 @@
-<h1 align="center">11ty Starter</h1>
+<h1 align="center">✨ 11ty Starter</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/11ty-starter" />
@@ -8,9 +8,13 @@
   <img src="https://img.shields.io/website/https/miguelpimentel.do/11ty-starter.svg" />
 </p>
 
-## Overview
-
 Starter template for building websites with [11ty](https://www.11ty.dev/) and [TailwindCSS](https://tailwindcss.com/).
+
+## Deployments
+
+- [Vercel](https://11ty-starter-chi.vercel.app/)
+- [Cloudflare Pages](https://11ty-starter-4uy.pages.dev/)
+- [GitHub Pages](https://miguelpimentel.do/11ty-starter/) *(styles are broken)*
 
 ## Quick Start
 
