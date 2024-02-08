@@ -3,9 +3,9 @@
   "description": "A starter site for building a digital garden in eleventy.",
   "scripts": {
     "start": "npm-run-all -p dev:*",
-    "build": "npx @11ty/eleventy && tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css",
+    "build": "npx @11ty/eleventy && tailwindcss -i src/assets/css/styles.sass -o _site/assets/css/styles.css",
     "dev:11ty": "eleventy --serve --quiet",
-    "dev:css": "tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css --watch --postcss"
+    "dev:css": "tailwindcss -i src/assets/css/styles.sass -o _site/assets/css/styles.css --watch --postcss"
   },
   "repository": {
     "type": "git",
