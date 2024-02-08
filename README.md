@@ -12,16 +12,26 @@
 
 ## 🚀 Deployments
 
-- [purplewastaken.com](https://purplewastaken.com/)
-- [Vercel](https://11ty-starter-chi.vercel.app/)
+I'm trying to learn some CI/CD by deploying this project to all these places:
+
+- [Vercel](https://11ty-starter-chi.vercel.app/) ([purplewastaken.com](https://purplewastaken.com/))
 - [Cloudflare Pages](https://11ty-starter-4uy.pages.dev/)
 - [GitHub Pages](https://miguelpimentel.do/11ty-starter/) *(styles are broken)*
 
 ## ⌚ Quick Start
 
-1. Clone the repo
-2. Run `pnpm install`
-3. Run `pnpm start`
+```bash
+# Clone the repo
+git clone git@github.com:semanticdata/11ty-starter.git
+
+# Install dependencies
+pnpm install
+
+# Start it up
+pnpm start
+
+# Open your browser on https://localhost:8080/
+```
 
 ## 🙌 Acknowledgements and Attributions
 
@@ -29,6 +39,6 @@ This work is heavily inspired by [jeremydaly/eleventy-tailwind-template](https:/
 
 Fluid design with the help from [Utopia](https://utopia.fyi/).
 
-## © ™ ® License
+## © License
 
 Source code in this repository is available under the [MIT License](LICENSE).
