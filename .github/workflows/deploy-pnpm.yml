@@ -29,7 +29,7 @@ jobs:
         uses: ./.github/actions/pnpm-install
       - name: Install Dependencies
         run: pnpm i
-      - name: Build Quartz
+      - name: Build
         run: pnpm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

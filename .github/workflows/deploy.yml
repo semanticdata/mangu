@@ -27,7 +27,7 @@ jobs:
           node-version: 20.11.0
       - name: Install dependencies
         run: npm i
-      - name: Build Quartz
+      - name: Build
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
