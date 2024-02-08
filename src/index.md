@@ -22,8 +22,14 @@ Like me, all notes contained within should be considered work-in-progress. Expec
 
 Thanks for visiting. Please tell your dog (or cat) I said "Hi"!
 
-## Test Links
+<!-- {% include "navigation.njk" %} -->
 
-- [/about](/about)
-
-{% include "navigation.njk" %}
+<ul class="text-center py-10 text-lg">
+	{%- for item in collections.pages -%}
+	{% if page.url != item.url %}
+	<li>
+		<a href="{{ item.url }}">{{ item.data.title }}</a>
+	</li>
+	{% endif %}
+	{%- endfor -%}
+</ul>
