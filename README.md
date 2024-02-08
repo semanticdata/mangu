@@ -12,6 +12,7 @@
 
 ## Deployments
 
+- [purplewastaken.com](https://purplewastaken.com/)
 - [Vercel](https://11ty-starter-chi.vercel.app/)
 - [Cloudflare Pages](https://11ty-starter-4uy.pages.dev/)
 - [GitHub Pages](https://miguelpimentel.do/11ty-starter/) *(styles are broken)*
