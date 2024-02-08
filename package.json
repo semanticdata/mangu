@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/semanticdata/11ty-starter.git"
   },
-  "author": "Jeremy Daly",
+  "author": "Miguel Pimentel",
   "license": "MIT",
   "homepage": "https://github.com/semanticdata/11ty-starter",
   "devDependencies": {
