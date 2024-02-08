@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <link rel="canonical" href="{{ config.url }}{{ page.url }}">
+  <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="stylesheet" href="/assets/css/style.css" />
 
-  <title>{% if title and title != 'Home' %}{{title}} - {% endif %}{{ config.siteTitle }}</title>
+  <title>{% if title and title != 'Home' %}{{title}} - {% endif %}{{ site.title }}</title>
 
   <!-- Icons -->
   <link rel="shortcut icon" type="image/png" href="/images/x16-favicon.png" sizes="16x16" />
@@ -16,30 +16,30 @@
   <link rel="apple-touch-icon" type="image/png" href="/images/x256-favicon.png" />
 
   <!-- Meta -->
-  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}">
-  <meta name="keywords" content="{% if keywords %}{{ keywords }}{% else %}{{ config.keywords }}{% endif %}">
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="{% if keywords %}{{ keywords }}{% else %}{{ site.keywords }}{% endif %}">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="Content-Language" content="en">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <!-- Facebook -->
-  <meta property="og:title" content="{% if (title != 'Home') %}{{title}} - {% endif %}{{ config.siteTitle }}">
+  <meta property="og:title" content="{% if (title != 'Home') %}{{title}} - {% endif %}{{ site.title }}">
   <meta property="og:type" content="website">
   <meta property="og:description"
-    content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}">
-  <meta property="og:url" content="{{ config.url }}{{ page.url }}">
-  <meta property="og:image" content="{% if image %}{{ image }}{% else %}{{ config.image }}{% endif %}">
+    content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:image" content="{% if image %}{{ image }}{% else %}{{ site.image }}{% endif %}">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="{{ card }}">
   <meta name="twitter:site" content="{{ twitter }}">
-  <meta name="twitter:title" content="{% if (title != 'Home') %}{{title}} - {% endif %}{{ config.siteTitle }}">
+  <meta name="twitter:title" content="{% if (title != 'Home') %}{{title}} - {% endif %}{{ site.title }}">
   <meta name="twitter:description"
-    content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}">
+    content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:creator" content="{{ twitter }}">
-  <meta name="twitter:image" content="{{ config.url }}{{ page.url }}">
-  <meta name="twitter:domain" content="{% if image %}{{ image }}{% else %}{{ config.image }}{% endif %}">
+  <meta name="twitter:image" content="{{ site.baseurl }}{{ page.url }}">
+  <meta name="twitter:domain" content="{% if image %}{{ image }}{% else %}{{ site.image }}{% endif %}">
 
 </head>
 
@@ -51,7 +51,7 @@
   </div>
 
   <footer class="mt-0 text-center text-base text-gray-500">
-    <p>&copy; {{ '' | year }} - <a href="{{ config.url }}">{{ config.siteTitle }}</a> | <a href="/sitemap.xml"
+    <p>&copy; {{ '' | year }} - <a href="{{ site.baseurl }}">{{ site.title }}</a> | <a href="/sitemap.xml"
         class="text-indigo-500">Site Map</a></p>
     <p class="pt-1 text-sm">Made with ❤️ by <a href="https://twitter.com/jeremy_daly" target="_blank"
         class="text-pink-500">Jeremy Daly</a></p>

@@ -2,5 +2,7 @@
   "baseurl": "https://miguelpimentel.do/eleventy-garden",
   "title": "Forgotten Notes",
   "description": "Like Forgetful Notes, but not really.",
-  "author": "Miguel Pimentel"
+  "author": "Miguel Pimentel",
+  "image": "https://www.11ty.dev/img/built/IdthKOzqFA-350.avif",
+  "keywords": "eleventy, 11ty, tailwind, tailwindcss, css, ssg"
 }

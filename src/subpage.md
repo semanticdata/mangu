@@ -12,7 +12,7 @@ order: 2
  </span>
 </h1>
 <h2 class="pb-12 text-4xl font-bold text-center text-gray-500">
- {{ config.siteTitle }}
+ {{ site.title }}
 </h2>
 
 {% include "navigation.njk" %}

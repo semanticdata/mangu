@@ -1,6 +1,6 @@
 ---
 title: Posts
 layout: posts
-permalink: "/posts/"
+permalink: "/posts.html"
 tags: navigable
 ---
