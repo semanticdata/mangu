@@ -28,6 +28,20 @@ module.exports = function (eleventyConfig) {
       });
     });
 
+  // SASS / SCSS
+  const eleventySass = require("eleventy-sass");
+
+  module.exports = function (eleventyConfig) {
+    eleventyConfig.addPlugin(eleventySass);
+
+    return {
+      dir: {
+        input: "src",
+        output: "_site",
+      },
+    };
+  };
+
   // Syntax Highlighting
   const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
   eleventyConfig.addPlugin(syntaxHighlight);
