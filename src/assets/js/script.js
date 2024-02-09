@@ -40,7 +40,7 @@ const applySetting = (passedSetting) => {
       "data-user-color-scheme",
       currentSetting
     );
-    setButtonLabelAndStatus(currentSetting);
+    // setButtonLabelAndStatus(currentSetting);
   } else {
     setButtonLabelAndStatus(getCSSCustomProp(COLOR_MODE_KEY));
   }
@@ -73,12 +73,12 @@ const toggleSetting = () => {
 /**
  * A shared method for setting the button text label and visually hidden status element
  */
-const setButtonLabelAndStatus = (currentSetting) => {
-  modeToggleText.innerText = `Enable ${
-    currentSetting === "dark" ? "light" : "dark"
-  } mode`;
-  modeStatusElement.innerText = `Color mode is now "${currentSetting}"`;
-};
+// const setButtonLabelAndStatus = (currentSetting) => {
+//   modeToggleText.innerText = `Enable ${
+//     currentSetting === "dark" ? "light" : "dark"
+//   } mode`;
+//   modeStatusElement.innerText = `Color mode is now "${currentSetting}"`;
+// };
 
 /**
  * Clicking the button runs the apply setting method which grabs its parameter
