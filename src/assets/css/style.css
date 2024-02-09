@@ -449,7 +449,7 @@ pre code {
     width: 6rem;
   }
 
-  div.container {
+  div.test-container {
     padding: 0;
     box-shadow: none;
     outline: none;
@@ -568,7 +568,7 @@ article img {
 
 @media only screen and (min-width: 469px) {
   /* Test Page */
-  .container {
+  .test-container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -595,7 +595,7 @@ html {
   /* background-color: palegreen; */
 }
 
-.container {
+.test-container {
   /* background: palegoldenrod; */
   padding: 1rem 2rem;
   box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
