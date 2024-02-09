@@ -8,6 +8,9 @@ dependencies:
   '@11ty/eleventy-plugin-syntaxhighlight':
     specifier: ^5.0.0
     version: 5.0.0
+  elasticlunr:
+    specifier: ^0.9.5
+    version: 0.9.5
   eleventy-sass:
     specifier: ^2.2.4
     version: 2.2.4(@11ty/eleventy@2.0.1)
@@ -686,6 +689,10 @@ packages:
     hasBin: true
     dependencies:
       jake: 10.8.7
+
+  /elasticlunr@0.9.5:
+    resolution: {integrity: sha512-5YM9LFQgVYfuLNEoqMqVWIBuF2UNCA+xu/jz1TyryLN/wmBcQSb+GNAwvLKvEpGESwgGN8XA1nbLAt6rKlyHYQ==}
+    dev: false
 
   /electron-to-chromium@1.4.657:
     resolution: {integrity: sha512-On2ymeleg6QbRuDk7wNgDdXtNqlJLM2w4Agx1D/RiTmItiL+a9oq5p7HUa2ZtkAtGBe/kil2dq/7rPfkbe0r5w==}

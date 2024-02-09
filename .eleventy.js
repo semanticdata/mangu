@@ -1,9 +1,11 @@
+const dayjs = require("dayjs");
+const autoprefixer = require("autoprefixer");
+const markdownIt = require("markdown-it");
+const postcss = require("postcss");
+const tailwindcss = require("tailwindcss");
+const searchFilter = require("./src/assets/js/searchFilter");
+
 module.exports = function (eleventyConfig) {
-  const dayjs = require("dayjs");
-  const autoprefixer = require("autoprefixer");
-  const markdownIt = require("markdown-it");
-  const postcss = require("postcss");
-  const tailwindcss = require("tailwindcss");
   const markdownItOptions = {
     html: true,
     linkify: true,
@@ -41,6 +43,9 @@ module.exports = function (eleventyConfig) {
       },
     };
   };
+
+  // Search w/ Elasticlunr-js
+  eleventyConfig.addFilter("search", searchFilter);
 
   // Syntax Highlighting
   const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -101,5 +106,6 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       data: "_data",
     },
+    passthroughFileCopy: true,
   };
 };
