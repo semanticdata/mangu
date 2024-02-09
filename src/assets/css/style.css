@@ -449,6 +449,13 @@ pre code {
     width: 6rem;
   }
 
+  div.container {
+    padding: 0;
+    box-shadow: none;
+    outline: none;
+    border-radius: none;
+  }
+
   :root {
     --frame-border-size: 2px;
     --frame-height: 0.15rem;
@@ -468,16 +475,15 @@ pre code {
     height: 1.2rem;
   }
   article p {
-      text-align: justify;
-    }
+    text-align: justify;
+  }
   article blockquote p {
-      text-align: center;
-    }
+    text-align: center;
   }
 }
 
 .site-nav {
-  margin: 0;
+  margin-bottom: 1rem;
   padding: 0;
   text-align: center;
 
@@ -558,4 +564,41 @@ article img {
   box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
   border: 0.15rem solid black;
   border-radius: 0.2rem;
+}
+
+@media only screen and (min-width: 469px) {
+  /* Test Page */
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* max-width: 60ch; */
+    /* height: 100vh; */
+    justify-content: center;
+    & .page-header {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+html {
+  /* background: paleturquoise; */
+}
+
+#test-body {
+  /* background: palevioletred; */
+  margin: 1rem;
+}
+
+#test-main {
+  text-align: justify;
+  /* background-color: palegreen; */
+}
+
+.container {
+  /* background: palegoldenrod; */
+  padding: 1rem 2rem;
+  box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
+  outline: 0.1rem solid black;
+  border-radius: 0.3rem;
 }
