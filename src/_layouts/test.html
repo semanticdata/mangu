@@ -8,10 +8,8 @@
 <body id="test-body">
   <div class="container">
     <header class="page-header">
-      <a href="/" class="page-header__logo" title="Go home">
-        <img class="author-picture" src="/assets/img/avatar.png" alt="author's avatar" width="64px" />
-      </a>
 
+      {% include 'header.html' %}
       {% include 'navigation.html' %}
 
     </header>
@@ -21,16 +19,8 @@
     </div>
 
     <footer class="page-footer">
-      <p>
-        <small>© 2024 {{site.author}}.
-          <a href="https://opensource.org/license/mit/" target="_blank">MIT License</a>.<br />
-          <a href="/meta">Meta</a>
-          <a href="/now">Now</a>
-          <a href="/uses">Uses</a>
-          <a target="_blank" href="https://github.com/semanticdata/eleventy-garden/">Source</a>
-        </small>
-      </p>
       {% include 'colorThemeToggle.html' %}
+      {% include 'site-footer.html' %}
     </footer>
 
     <script src="/assets/js/script.js"></script>
