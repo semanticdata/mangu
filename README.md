@@ -15,7 +15,7 @@
 I'm trying to learn some CI/CD by deploying this project to all these places:
 
 - [Vercel](https://11ty-starter-chi.vercel.app/) ([purplewastaken.com](https://purplewastaken.com/))
-- [Cloudflare Pages](https://11ty-starter-4uy.pages.dev/)
+- [Cloudflare Pages](https://11ty-starter-4uy.pages.dev/) ([itscattime.com/](https://itscattime.com/))
 - [GitHub Pages](https://miguelpimentel.do/11ty-starter/) *(styles are broken)*
 
 ## ⌚ Quick Start

@@ -1,14 +1,12 @@
 ---
 title: Forgotten Notes
-layout: default
+layout: test
 tags: page
 modified: 2022-01-09 00:00:00
 order: 1
 ---
 
-# Homepage
-
-Welcome! This is the home page and this is some placeholder tex.
+# Welcome!
 
 You've come across **Forgotten Notes**—a [[Digital Garden|digital garden]] of knowledge. Come in and make yourself comfortable.
 
