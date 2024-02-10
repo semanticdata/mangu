@@ -140,18 +140,18 @@ body {
   /* margin: 0 1.5rem; */
 }
 
-/* .page-header {
+.page-header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
-} */
+}
 
-/* .page-header nav a:not(:hover):not(:focus) {
+.page-header nav a:not(:hover):not(:focus) {
   color: currentColor;
   text-decoration: none;
-} */
+}
 
 nav a {
   margin: 0 12px;
@@ -166,10 +166,10 @@ nav a {
 /* margin: 0 auto; */
 /* } */
 
-/* .page-footer {
+.page-footer {
   text-align: center;
   margin-top: 2rem;
-} */
+}
 
 a[href] {
   color: var(--accent);
@@ -270,7 +270,7 @@ h5 {
 
 /* Custom CSS */
 .author-picture {
-  outline: 0.15rem solid var(--border-color);
+  outline: 0.15rem solid var(--color-dark);
   border-radius: 50%;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.75);
   /* clip-path: circle(); */
@@ -434,53 +434,6 @@ pre code {
   }
 }
 
-@media only screen and (max-width: 468px) {
-  :root {
-    --frame-border-size: 2px;
-    --frame-height: 0.15rem;
-    --frame-width: 0.15rem;
-  }
-
-  .page-header {
-    flex-direction: column;
-    font-size: var(--step--1);
-  }
-
-  .page-header__logo {
-    margin: 1rem;
-  }
-
-  .author-picture {
-    width: 6rem;
-  }
-
-  div.test-container {
-    padding: 0;
-    box-shadow: none;
-    outline: none;
-    border-radius: none;
-  }
-
-  .site-nav-link {
-    outline: var(--frame-border-size) solid rgb(30 41 59);
-    padding: var(--frame-height) var(--frame-width);
-    border-radius: 0.2rem;
-    font-weight: 400;
-  }
-
-  .toggle-button__icon {
-    /* font-size: var(--step--1); */
-    width: 1.2rem;
-    height: 1.2rem;
-  }
-  article p {
-    text-align: justify;
-  }
-  article blockquote p {
-    text-align: center;
-  }
-}
-
 .site-nav {
   margin-bottom: 1rem;
   padding: 0;
@@ -585,13 +538,12 @@ html {
 }
 
 body {
-  /* background: palevioletred; */
+  background: palevioletred;
   /* margin: 1rem; */
   /* padding: 1rem; */
 
-  /* align-items: center; */
+  align-items: center;
   margin: 0 auto;
-  background: purple;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -600,22 +552,106 @@ body {
 }
 
 #test-main {
-  /* text-align: justify; */
+  text-align: justify;
   /* background-color: palegreen; */
 }
 
 .test-container {
-  /* background: palegoldenrod; */
+  background: palegoldenrod;
   padding: 1rem 2rem;
   box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
   outline: 0.1rem solid black;
   border-radius: 0.3rem;
 
-  margin: auto;
+  /* margin: auto; */
   /* margin-top: 25%; */
   /* padding: auto 0; */
 
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: center; */
+}
+
+@media only screen and (max-width: 468px) {
+  :root {
+    --frame-border-size: 2px;
+    --frame-height: 0.15rem;
+    --frame-width: 0.15rem;
+  }
+
+  .page-header {
+    flex-direction: column;
+    font-size: var(--step--1);
+  }
+
+  .page-header__logo {
+    margin: 1rem;
+  }
+
+  .author-picture {
+    width: 6rem;
+  }
+
+  div.test-container {
+    padding: 0;
+    box-shadow: none;
+    outline: none;
+    border-radius: none;
+  }
+
+  .site-nav-link {
+    outline: var(--frame-border-size) solid rgb(30 41 59);
+    padding: var(--frame-height) var(--frame-width);
+    border-radius: 0.2rem;
+    font-weight: 400;
+  }
+
+  .toggle-button__icon {
+    font-size: var(--step--1);
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  article p {
+    text-align: justify;
+  }
+
+  article blockquote p {
+    text-align: center;
+  }
+
+  body {
+    /* align-items: center; */
+    /* margin: 0 auto; */
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    width: 100vw;
+    height: auto;
+  }
+  .test-container {
+    background: palegoldenrod;
+    padding: 1rem 2rem;
+    box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
+    outline: 0.1rem solid black;
+    border-radius: 0.3rem;
+    padding: 0;
+    margin: 0;
+  }
+  #test-main {
+    padding: 1rem;
+    margin: 0;
+  }
+  #test-body {
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+  }
 }
