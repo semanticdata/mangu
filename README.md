@@ -1,4 +1,4 @@
-<h1 align="center">✨ 11ty Starter</h1>
+<h1 align="center">📚 Forgotten Notes</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/11ty-starter" />
@@ -8,30 +8,48 @@
   <img src="https://img.shields.io/website/https/miguelpimentel.do/11ty-starter.svg" />
 </p>
 
-<p align="center">My starter website built with <a href="https://www.11ty.dev/">11ty</a> and <a href="https://tailwindcss.com/">TailwindCSS</a>.</p>
+<p align="center">
+Like Forgetful Notes... but not really.
+<br>
+My starter website built with <a href="https://www.11ty.dev/">11ty</a> and <a href="https://tailwindcss.com/">TailwindCSS</a>.
+</p>
 
 ## 🚀 Deployments
 
 I'm trying to learn some CI/CD by deploying this project to all these places:
 
 - [Vercel](https://11ty-starter-chi.vercel.app/) ([purplewastaken.com](https://purplewastaken.com/))
-- [Cloudflare Pages](https://11ty-starter-4uy.pages.dev/)
+- [Cloudflare Pages](https://11ty-starter-4uy.pages.dev/) ([itscattime.com/](https://itscattime.com/))
 - [GitHub Pages](https://miguelpimentel.do/11ty-starter/) *(styles are broken)*
 
-## ⌚ Quick Start
+## ⚙ Quick Start
+
+### 1. Clone the repo
 
 ```bash
-# Clone the repo
 git clone git@github.com:semanticdata/11ty-starter.git
-
-# Install dependencies
-pnpm install
-
-# Start it up
-pnpm start
-
-# Open your browser on https://localhost:8080/
 ```
+
+### 2. Install dependencies
+
+```bash
+pnpm install
+```
+
+### 3. Start it up
+
+```bash
+pnpm start
+```
+
+### 4. Open your browser to <https://localhost:8080/>
+
+## ✨ Features
+
+- Blog section (no pagination *yet*)
+- Notes section (expect changes)
+- Wikilinks `[[links]]`
+- Backlinks (with Hover Preview)
 
 ## 🙌 Acknowledgements and Attributions
 
