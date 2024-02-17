@@ -9,8 +9,6 @@
 </p>
 
 <p align="center">
-Like Forgetful Notes... but not really.
-<br>
 My starter website built with <a href="https://www.11ty.dev/">11ty</a> and <a href="https://tailwindcss.com/">TailwindCSS</a>.
 </p>
 
@@ -18,8 +16,8 @@ My starter website built with <a href="https://www.11ty.dev/">11ty</a> and <a hr
 
 I'm trying to learn some CI/CD by deploying this project to all these places:
 
-- [Vercel](https://11ty-starter-chi.vercel.app/) ([purplewastaken.com](https://purplewastaken.com/))
-- [Cloudflare Pages](https://11ty-starter-4uy.pages.dev/) ([itscattime.com/](https://itscattime.com/))
+- [Vercel](https://11ty-starter-chi.vercel.app/)
+- [Cloudflare Pages](https://11ty-starter-4uy.pages.dev/)
 - [GitHub Pages](https://miguelpimentel.do/11ty-starter/) *(styles are broken)*
 
 ## ⚙ Quick Start
