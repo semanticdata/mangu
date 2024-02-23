@@ -1,16 +1,14 @@
-<h1 align="center">📚 Forgotten Notes</h1>
+# 📚 11ty Starter
 
-<p align="center">
+<p align="">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/11ty-starter" />
   <img src="https://img.shields.io/github/repo-size/semanticdata/11ty-starter" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/11ty-starter" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/11ty-starter" />
-  <img src="https://img.shields.io/website/https/miguelpimentel.do/11ty-starter.svg" />
+  <img src="https://img.shields.io/website/https/semanticdata.github.io/11ty-starter.svg" />
 </p>
 
-<p align="center">
 My starter website built with <a href="https://www.11ty.dev/">11ty</a> and <a href="https://tailwindcss.com/">TailwindCSS</a>.
-</p>
 
 ## 🚀 Deployments
 
