@@ -1,12 +1,12 @@
 ---
-title: Forgotten Notes
+title: "Mangú"
 layout: test
 tags: page
 modified: 2022-01-09 00:00:00
 order: 1
 ---
 
-# Welcome!
+# Welcome
 
 You've come across **Forgotten Notes**—a [[Digital Garden|digital garden]] of knowledge. Come in and make yourself comfortable.
 

@@ -102,7 +102,7 @@ const addSelected2 = (ulRes, li) => {
             () => {
               addSelected2(ulRes, item);
             },
-            false
+            false,
           );
 
           // if <a> focused by a Tab key
@@ -113,7 +113,7 @@ const addSelected2 = (ulRes, li) => {
               () => {
                 addSelected2(ulRes, item);
               },
-              false
+              false,
             );
         });
       } else {
@@ -130,6 +130,6 @@ const addSelected2 = (ulRes, li) => {
       document
         .getElementById("nav-search__input")
         .addEventListener("input", search);
-    })
+    }),
   );
 })(window, document);

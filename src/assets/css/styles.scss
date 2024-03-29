@@ -13,7 +13,7 @@ a:hover {
 body {
   background: #282a36;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 a {
   color: #ffd479;
@@ -48,7 +48,14 @@ img {
 .nav-search {
   margin-top: 2rem;
   display: block;
-  background-image: linear-gradient(to right, #3d4251, #3b3f4c, #393d46, #373a41, #35373c);
+  background-image: linear-gradient(
+    to right,
+    #3d4251,
+    #3b3f4c,
+    #393d46,
+    #373a41,
+    #35373c
+  );
   width: 100%;
   position: relative;
   border-radius: 10px;

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <h1 class="page-title">{{ title }}</h1>
 <!-- <p>{{ description }}</p> -->
 
@@ -8,9 +9,7 @@ layout: default
   <ul>
     {%- for note in collections.notes -%}
     <li>
-      <a href="{{ note.url }}">
-        {{ note.data.title }}
-      </a>
+      <a href="{{ note.url }}"> {{ note.data.title }} </a>
     </li>
     {%- endfor -%}
   </ul>

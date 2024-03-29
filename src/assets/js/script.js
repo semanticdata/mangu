@@ -15,7 +15,7 @@ const modeStatusElement = document.querySelector(".js-mode-status");
  */
 const getCSSCustomProp = (propKey) => {
   let response = getComputedStyle(document.documentElement).getPropertyValue(
-    propKey
+    propKey,
   );
 
   // Tidy up the string if there’s something to work with
@@ -38,7 +38,7 @@ const applySetting = (passedSetting) => {
   if (currentSetting) {
     document.documentElement.setAttribute(
       "data-user-color-scheme",
-      currentSetting
+      currentSetting,
     );
     // setButtonLabelAndStatus(currentSetting);
   } else {

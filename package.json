@@ -1,19 +1,21 @@
 {
-  "name": "11ty-starter",
-  "description": "A starter site for building a digital garden in eleventy.",
+  "name": "Mangú",
+  "description": "A starter site for eleventy.",
   "scripts": {
     "start": "npm-run-all -p dev:*",
     "build": "npx @11ty/eleventy && tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css",
     "dev:11ty": "npx @11ty/eleventy --serve --quiet",
-    "dev:css": "tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css --watch --postcss"
+    "dev:css": "tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css --watch --postcss",
+    "check": "prettier --check .",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/semanticdata/11ty-starter.git"
+    "url": "git+https://github.com/semanticdata/mangu.git"
   },
   "author": "Miguel Pimentel",
   "license": "MIT",
-  "homepage": "https://github.com/semanticdata/11ty-starter",
+  "homepage": "https://github.com/semanticdata/mangu",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "autoprefixer": "^10.4.17",

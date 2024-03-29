@@ -27,7 +27,6 @@ Here are some places you can find me on the web. You'll probably be able to find
 
 [GitHub](https://github.com/semanticdata/) • [Instagram](https://instagram.com/miguelapv) • [LinkedIn](https://www.linkedin.com/in/miguelpimentel29/)
 
-
 ### I like…
 
 - Writing / Journaling
@@ -50,16 +49,16 @@ Here are some places you can find me on the web. You'll probably be able to find
 
 This is an experimental section.
 
-| Title                                  | Description                                                                                         |
+|                 Title                  | Description                                                                                         |
 | :------------------------------------: | :-------------------------------------------------------------------------------------------------- |
-| Assistant Contract Administrator       | Take infrastructure and technology assets projects, from procurement through contract closesure.    |
-| Chief Field Inspector                  | Lead inspector in several residential streets public works projects.                                |
-| Civil Engineering Technician           | Work under Engineers and Architects providing daily site visits and technical design assistance.    |
-| Construction Materials Technician      | Materials Lab - Asphalt, Concrete, and Soil testing. Nuclear gauge certified.                       |
-| Council Authorized Representative      | Metropolitan Council's authorized representative during the Construction phase of several projects. |
-| Crew Lead                              | Lead small construction crew throughout mountain road culverts installation.                        |
-| Drafting Specialist                    | Custom commercial furniture designer.                                                               |
-| Emergency Medical Technician           | Nationally Certified EMT. Experience in urban emergency response.                                   |
-| Fire Motor Operator                    | Driving, Tiling, Interim Officer, and Pumping fire apparatus operation.                             |
-| Licensed Firefighter                   | Minnesota Licensed Firefighter. Residential firefighting experience.                                |
+|    Assistant Contract Administrator    | Take infrastructure and technology assets projects, from procurement through contract closesure.    |
+|         Chief Field Inspector          | Lead inspector in several residential streets public works projects.                                |
+|      Civil Engineering Technician      | Work under Engineers and Architects providing daily site visits and technical design assistance.    |
+|   Construction Materials Technician    | Materials Lab - Asphalt, Concrete, and Soil testing. Nuclear gauge certified.                       |
+|   Council Authorized Representative    | Metropolitan Council's authorized representative during the Construction phase of several projects. |
+|               Crew Lead                | Lead small construction crew throughout mountain road culverts installation.                        |
+|          Drafting Specialist           | Custom commercial furniture designer.                                                               |
+|      Emergency Medical Technician      | Nationally Certified EMT. Experience in urban emergency response.                                   |
+|          Fire Motor Operator           | Driving, Tiling, Interim Officer, and Pumping fire apparatus operation.                             |
+|          Licensed Firefighter          | Minnesota Licensed Firefighter. Residential firefighting experience.                                |
 | Public Works Safety Committee Co-chair | Served as Co-chair for the Bloomington Public Works Safety committee co-chair.                      |

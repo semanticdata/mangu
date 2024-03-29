@@ -97,7 +97,7 @@ inputSearch.onkeydown = (e) => {
     var selectedLi = ulRes.querySelector('li[class*="selected"]');
     window.location.href =
       selectedLi.getElementsByClassName(
-        "item__content"
+        "item__content",
       )[0].firstChild.firstChild.href;
   }
 

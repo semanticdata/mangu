@@ -1,0 +1,36 @@
+{
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/pimentma/GitHub/mangu/.github/workflows/deploy.yml"
+  },
+  "better-extension-manager.workspace": [
+    "ahgood.shift-shift",
+    "alefragnani.project-manager",
+    "antfu.open-in-github-button",
+    "bierner.markdown-preview-github-styles",
+    "christian-kohler.path-intellisense",
+    "codeium.codeium",
+    "davidanson.vscode-markdownlint",
+    "dracula-theme.theme-dracula",
+    "ecmel.vscode-html-css",
+    "emmanuelbeziat.vscode-great-icons",
+    "esbenp.prettier-vscode",
+    "eseom.nunjucks-template",
+    "formulahendry.auto-rename-tag",
+    "ginfuru.better-nunjucks",
+    "gruntfuggly.todo-tree",
+    "guapibai.nunjucks-prettier",
+    "jacano.vscode-pnpm",
+    "johnpapa.vscode-peacock",
+    "ms-vscode-remote.remote-wsl",
+    "oderwat.indent-rainbow",
+    "pkief.material-icon-theme",
+    "pranaygp.vscode-css-peek",
+    "redhat.vscode-yaml",
+    "sibiraj-s.vscode-scss-formatter",
+    "streetsidesoftware.code-spell-checker",
+    "takumii.markdowntable",
+    "usernamehw.errorlens",
+    "vsls-contrib.gistfs",
+    "yzhang.markdown-all-in-one"
+  ]
+}

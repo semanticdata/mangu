@@ -1,29 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    {% include 'test-head.html' %}
+  </head>
 
-<head>
-  {% include 'test-head.html' %}
-</head>
+  <body id="test-body">
+    <div class="test-container">
+      <header class="page-header">
+        {% include 'test-header.html' %} {% include 'test-navigation.html' %}
+      </header>
 
-<body id="test-body">
-  <div class="test-container">
-    <header class="page-header">
-      {% include 'test-header.html' %}
-      {% include 'test-navigation.html' %}
-    </header>
+      <div id="test-main">{{content}}</div>
 
-    <div id="test-main">
-      {{content}}
+      <footer class="page-footer">
+        <!-- {% include 'test-footer.html' %} -->
+        <!-- {% include 'test-colorThemeToggle.html' %} -->
+      </footer>
+
+      <script src="/assets/js/script.js"></script>
+      <script src="/assets/js/prism.js"></script>
     </div>
-
-    <footer class="page-footer">
-      <!-- {% include 'test-footer.html' %} -->
-      <!-- {% include 'test-colorThemeToggle.html' %} -->
-    </footer>
-
-    <script src="/assets/js/script.js"></script>
-    <script src="/assets/js/prism.js"></script>
-  </div>
-</body>
-
+  </body>
 </html>

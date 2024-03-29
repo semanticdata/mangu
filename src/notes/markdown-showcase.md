@@ -71,22 +71,24 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
-* List item
-* Another item
-* And another item
+- List item
+- Another item
+- And another item
 
 ### Nested List
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
-* Item
- 1. First Sub-item
- 2. Second Sub-item
+- Item
 
-1. Numbered Item
-2. Another one
- 1. Sub-item
- * Unordered again
+1.  First Sub-item
+2.  Second Sub-item
+
+3.  Numbered Item
+4.  Another one
+5.  Sub-item
+
+- Unordered again
 
 ## Code
 
@@ -99,26 +101,26 @@ Let us use some `inline code` and check out how it `looks`. Here's some `more`.
 ```html
 <html>
   <head>
-  <div style="background-color: #333;">
-   <a href="https://example.com/">Example</a>
-  </div>
- </head>
+    <div style="background-color: #333;">
+      <a href="https://example.com/">Example</a>
+    </div>
+  </head>
 </html>
 ```
 
 ```css
 .niceClass {
- color: blue;
- background-color: #fff;
+  color: blue;
+  background-color: #fff;
 }
 ```
 
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
+  dateformat.i18n = require("./lang/" + l);
   return true;
-}
+};
 ```
 
 ## Tables
@@ -134,21 +136,21 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 ### Simple Example
 
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | --------------------- | --------------------- | ---------------------
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+| Title 1               | Title 2               | Title 3               | Title 4               |
+| --------------------- | --------------------- | --------------------- | --------------------- |
+| lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
 
 ### Longer Example
 
-Title 1 | Title 2 | Title 3 | Title 4
---- | --- | --- | ---
-lorem | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
-lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
-lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
-lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
+| Title 1                    | Title 2                                | Title 3                    | Title 4                                |
+| -------------------------- | -------------------------------------- | -------------------------- | -------------------------------------- |
+| lorem                      | lorem ipsum                            | lorem ipsum dolor          | lorem ipsum dolor sit                  |
+| lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit                  |
+| lorem ipsum dolor          | lorem ipsum                            | lorem                      | lorem ipsum                            |
+| lorem ipsum dolor          | lorem ipsum dolor sit                  | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur |
 
 ### Inline Markdown Within Tables
 

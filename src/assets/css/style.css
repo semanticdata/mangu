@@ -312,7 +312,9 @@ article > * + * {
   border: none;
   font: inherit;
   font-size: var(--step-0);
-  transition: background 500ms ease-in-out, color 200ms ease;
+  transition:
+    background 500ms ease-in-out,
+    color 200ms ease;
   cursor: pointer;
 }
 
@@ -342,7 +344,9 @@ blockquote {
   position: relative;
   text-align: center;
   margin: 2rem 1.5rem;
-  transition: background 400ms ease-in-out, color 300ms ease;
+  transition:
+    background 400ms ease-in-out,
+    color 300ms ease;
   & p {
     margin: 1rem 0.1rem;
     padding: 1em;

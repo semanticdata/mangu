@@ -1,45 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    {% include 'head.html' %}
+  </head>
 
-<head>
-  {% include 'head.html' %}
-</head>
+  <body>
+    <header class="page-header">
+      <a href="/" class="page-header__logo" title="Go home">
+        <img
+          class="author-picture"
+          src="/assets/img/avatar.png"
+          alt="author's avatar"
+          width="64px"
+        />
+      </a>
 
-<body>
-  <header class="page-header">
-    <a href="/" class="page-header__logo" title="Go home">
-      <img class="author-picture" src="/assets/img/avatar.png" alt="author's avatar" width="64px" />
-    </a>
+      {% include 'navigation.html' %}
+    </header>
 
-    {% include 'navigation.html' %}
+    <!-- {% include 'search.html' %} -->
 
-  </header>
+    <main>{{content}}</main>
 
-  <!-- {% include 'search.html' %} -->
+    <footer class="page-footer">
+      <p>
+        <small
+          >© 2024 {{site.author}}.
+          <a href="https://opensource.org/license/mit/" target="_blank"
+            >MIT License</a
+          >.<br />
+          <a href="/meta">Meta</a>
+          <a href="/now">Now</a>
+          <a href="/uses">Uses</a>
+          <!-- <a target="_blank" href="https://github.com/semanticdata">GitHub</a> -->
+          <a
+            target="_blank"
+            href="https://github.com/semanticdata/eleventy-garden/"
+            >Source</a
+          >
+        </small>
+      </p>
+      {% include 'colorThemeToggle.html' %}
+    </footer>
 
-  <main>{{content}}</main>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"
+    ></script>
 
-  <footer class="page-footer">
-    <p>
-      <small>© 2024 {{site.author}}.
-        <a href="https://opensource.org/license/mit/" target="_blank">MIT License</a>.<br />
-        <a href="/meta">Meta</a>
-        <a href="/now">Now</a>
-        <a href="/uses">Uses</a>
-        <!-- <a target="_blank" href="https://github.com/semanticdata">GitHub</a> -->
-        <a target="_blank" href="https://github.com/semanticdata/eleventy-garden/">Source</a>
-      </small>
-    </p>
-    {% include 'colorThemeToggle.html' %}
-  </footer>
-
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
-
-  <script type="text/javascript" src="/assets/js/script.js"></script>
-  <script type="text/javascript" src="/assets/js/prism.js"></script>
-  <script type="text/javascript" src="/assets/js/search.js"></script>
-  <script type="text/javascript" src="/assets/js/search_custom.js"></script>
-</body>
-
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+    <script type="text/javascript" src="/assets/js/prism.js"></script>
+    <script type="text/javascript" src="/assets/js/search.js"></script>
+    <script type="text/javascript" src="/assets/js/search_custom.js"></script>
+  </body>
 </html>
