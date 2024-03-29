@@ -1,5 +1,5 @@
 {
-  "name": "Mangú",
+  "name": "Mangu",
   "description": "A starter site for eleventy.",
   "scripts": {
     "start": "npm-run-all -p dev:*",
