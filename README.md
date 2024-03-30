@@ -57,7 +57,7 @@ Although it is usually made with green bananas, there is a sweet version made wi
 
 It is definitely a food that is rooted in the heart of the Dominican people, as it has played a very important role in the food and nutrition of all its inhabitants. Especially in times of crisis or in more economically depressed social classes. Read more in the Wikipedia [article](https://en.wikipedia.org/wiki/Mang%C3%BA).
 
-![mangú](mangú.jpg)
+![mangú](mangu.jpg)
 
 ## 🙌 Acknowledgements and Attributions
 
