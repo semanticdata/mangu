@@ -53,7 +53,7 @@ Mangú is a smooth green plantain based puree. It is usually eaten at breakfast 
 
 Anecdotally, although it has not been proven, it is said that the name comes from the American invasion of the country, where the Americans, upon tasting the dish, said “man, this is good” and the Dominicans, who did not know English, ended up calling it “mangú“.
 
-Although it is usually made with green bananas, there is a sweet version made with ripe bananas.
+Although it is usually made with green platains, there is a sweet version made with ripe platains. It is one of my favorite dishes and the base for my favorite dish "Pastelon de Platanos Maduros."
 
 It is definitely a food that is rooted in the heart of the Dominican people, as it has played a very important role in the food and nutrition of all its inhabitants. Especially in times of crisis or in more economically depressed social classes. Read more in the Wikipedia [article](https://en.wikipedia.org/wiki/Mang%C3%BA).
 
