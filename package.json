@@ -1,8 +1,8 @@
 {
   "name": "Mangu",
-  "description": "A starter site for eleventy.",
+  "description": "A starter site for Eleventy.",
   "scripts": {
-    "start": "npm-run-all -p dev:*",
+    "start": "concurrently 'bun run dev:css' 'bun run dev:11ty'",
     "build": "npx @11ty/eleventy && tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css",
     "dev:11ty": "npx @11ty/eleventy --serve --quiet",
     "dev:css": "tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css --watch --postcss",
@@ -17,21 +17,19 @@
   "license": "MIT",
   "homepage": "https://github.com/semanticdata/mangu",
   "devDependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@11ty/eleventy": "^2.0.1",
     "autoprefixer": "^10.4.19",
-    "dayjs": "^1.11.10",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
-    "title-case": "^3.0.3"
-  },
-  "dependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "concurrently": "^8.2.2",
+    "dayjs": "^1.11.12",
     "elasticlunr": "^0.9.5",
     "eleventy-sass": "^2.2.4",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-footnote": "^4.0.0",
-    "markdown-it-table-of-contents": "^0.6.0"
+    "markdown-it-table-of-contents": "^0.6.0",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.6",
+    "title-case": "^3.0.3"
   }
 }
